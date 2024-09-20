@@ -5,7 +5,7 @@ def get_input(word_type: str):
 # creating the input for the mad lib game
 noun1 = get_input("noun")
 adjective1 = get_input("adjective")
-verb1 = get_input("verb")
+verb1 = get_input("verb (Present Tense)")
 noun2 = get_input("noun")
 verb2 = get_input("verb")
 
@@ -23,5 +23,6 @@ One day, {noun2} walked into the room and caught the {noun1} in the act.
 
 And so, {noun2} and the {noun1} went off to {verb2} and had a great time. 
 The End. 
-
 """
+
+print(story)
